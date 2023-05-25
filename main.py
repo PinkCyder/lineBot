@@ -6,8 +6,8 @@ from linebot.models import *
 import re
 import requests
 
-access_token = 'UoO2C2d5arwHqKkRDKa1SqFCpOT3f8Vjx8MCvq2cGXiwzBz/ghX5AQ/zmaXZhujEA+yLE0Xs83MlEe3vkGbWjqIxupb/Gu3M/GwEgHsHNDm64QVm24qQ7WbgtZp0UVHdnaYg3Yx/g792VFoeSZP1OwdB04t89/1O/w1cDnyilFU='
-secret = '8e9c703ac5225df03e5c3c2104d00a6c'
+access_token = '' #你的token
+secret = '' #你的secret
 
 app = Flask(__name__)
 
