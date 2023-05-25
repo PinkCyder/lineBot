@@ -1,0 +1,141 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/o/odayakana/20190722/20190722181234.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=66"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "台中市3小時天氣",
+        "weight": "bold",
+        "size": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "時間09:00~12:00"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "天氣狀態"
+              },
+              {
+                "type": "text",
+                "text": "晴時多雲偶陣雨"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "氣溫"
+              },
+              {
+                "type": "text",
+                "text": "32°C"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "降雨機率"
+              },
+              {
+                "type": "text",
+                "text": "80%"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "舒適度"
+              },
+              {
+                "type": "text",
+                "text": "悶熱"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "體感溫度"
+              },
+              {
+                "type": "text",
+                "text": "35°C"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "詳情請上氣象局網站",
+          "uri": "https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=66"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
